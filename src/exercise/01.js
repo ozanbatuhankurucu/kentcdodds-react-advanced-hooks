@@ -11,7 +11,7 @@ const countReducer = (currentState, action) => {
       }
 
     default:
-      break
+      return currentState
   }
 }
 
