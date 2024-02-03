@@ -61,7 +61,6 @@ function useAsync(asyncCallback, initialState, dependencies) {
 }
 
 function PokemonInfo({pokemonName}) {
-  console.log('PokemonInfo')
   const state = useAsync(
     () => {
       if (!pokemonName) {
